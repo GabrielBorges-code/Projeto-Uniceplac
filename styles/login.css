@@ -1,0 +1,32 @@
+body {
+    background-image: url(../assets/fundo.png);
+}
+div {
+    border-radius: 14px;
+}
+.content{
+    text-align: justify;
+    width: 720px;
+    height: 540px;
+    margin: 3px;
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.7 );
+    float: right;
+    padding: 30px;
+    /*
+       background-color: red;
+    display:inline-block;
+    width: 720px;
+    height: 540px;
+    color: white;
+    text-align: center;
+    line-height: 540px;
+    */
+}
+
+/*.word{
+    width: 50%;
+    align-content: center;
+    margin: 0px auto;
+    position: relative;
+  }*/
