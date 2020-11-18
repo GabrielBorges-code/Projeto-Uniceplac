@@ -2,31 +2,31 @@ body {
     background-image: url(../assets/fundo.png);
 }
 div {
-    border-radius: 14px;
+    border-radius: 25px;
 }
-.content{
-    text-align: justify;
-    width: 720px;
+div.content{
+    width: 750px;
     height: 540px;
-    margin: 3px;
+    margin-right: 50px;
     position: relative;
     background-color: rgb(255, 255, 255, 0.7 );
     float: right;
     padding: 30px;
-    /*
-       background-color: red;
-    display:inline-block;
-    width: 720px;
-    height: 540px;
-    color: white;
-    text-align: center;
-    line-height: 540px;
-    */
+    
+}
+div.content p h1{
+    font-family: 'Ubuntu', sans-serif;
+    
 }
 
-/*.word{
+div.word{
     width: 50%;
-    align-content: center;
-    margin: 0px auto;
-    position: relative;
-  }*/
+    font-size: 60px;
+    color: #00734f;
+}
+
+div.word p {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    transform: rotate(-10deg)
+}
