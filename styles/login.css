@@ -5,8 +5,8 @@ div {
     border-radius: 25px;
 }
 div.content{
-    width: 750px;
-    height: 540px;
+    width: 575px;
+    height: 489px;
     margin-right: 50px;
     position: relative;
     background-color: rgb(255, 255, 255, 0.7 );
@@ -14,9 +14,58 @@ div.content{
     padding: 30px;
     
 }
-div.content p h1{
+div.content {
     font-family: 'Ubuntu', sans-serif;
     
+}
+
+div.content {
+    font-size: 15pt;
+}
+
+div.content img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    
+}
+
+i.email_login{
+    background: url(../assets/login_icon.png);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box; 
+}
+
+i.password_login{
+    background: url(../assets/password_icon.png);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box; 
+}
+
+input.login {
+    width: 318px;
+    height: 51px
+}
+
+input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+}
+
+img#logoImg{
+    position: relative;
+    left: 375px;
 }
 
 div.word{
@@ -29,4 +78,12 @@ div.word p {
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     transform: rotate(-10deg)
+}
+
+div.link{
+    display: inline;
+}
+
+div.link#forgotPassword {
+    float: right;
 }
