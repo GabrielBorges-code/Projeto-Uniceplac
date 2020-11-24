@@ -1,0 +1,62 @@
+body {
+    background-image: url(../assets/fundo.png);
+}
+
+div#register{
+    text-align: center;
+    height: 615px;
+   
+    background-color: rgb(255, 255, 255, 0.7 );
+
+    margin: 0 auto;
+    width: 50%;
+
+}
+div#register h1{
+    color: #00734f;
+    font-family: 'Kaushan Script', cursive;
+}
+
+input.register{
+    border-radius: 15px;
+    width: 318px;
+    height: 51px
+   
+}
+
+/* icones */
+
+i.name_register{
+    background: url(../assets/login.svg);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box; 
+}
+
+i.email_register{
+    background: url(../assets/email.svg);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box; 
+}
+
+i.password_register{
+    background: url(../assets/password.svg);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box; 
+}
+
+  
