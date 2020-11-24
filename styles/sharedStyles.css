@@ -1,0 +1,37 @@
+body {
+    background-image: url(../assets/fundo.png);
+}
+div {
+    border-radius: 25px;
+}
+
+div.content {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+    
+}
+
+input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+    padding: 9px;
+
+    outline: none;
+
+}
+input:focus{
+    border-width: 3px;
+    box-shadow: 2px 2px 12px #00734f;
+   
+}
+
+input#btnAcess {
+    color: white;
+    width: 318px;
+    height: 51px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #00734f;
+    border-color: #00734f;
+}
+
