@@ -1,4 +1,4 @@
-body {
+/*body {
     background-image: url(../assets/fundo.png);
 }
 div {
@@ -16,11 +16,18 @@ div.content{
 }
 div.content {
     font-family: 'Ubuntu', sans-serif;
-    
-}
-
-div.content {
     font-size: 15pt;
+    
+}*/
+div.content{
+    width: 575px;
+    height: 489px;
+    margin-right: 50px;
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.7 );
+    float: right;
+    padding: 30px;
+    
 }
 
 div.content img {
@@ -53,24 +60,19 @@ i.password_login{
     box-sizing: border-box; 
 }
 
+/*input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+    padding: 9px;
+}*/
+
 input.login {
     border-radius: 15px;
     width: 318px;
     height: 51px
 }
 
-div.btnAcess{
-    width: 320px;
-    position: relative;
-    left: 25%;    
-} 
-
-input{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 15pt;
-}
-
-input#btnAcess {
+/*input#btnAcess {
     color: white;
     width: 318px;
     height: 51px;
@@ -78,7 +80,13 @@ input#btnAcess {
     border-radius: 15px;
     background-color: #00734f;
     border-color: #00734f;
-}
+}*/
+
+div.btnAcess{
+    width: 320px;
+    bo: relative;
+    left: 25%;    
+} 
 
 img#logoImg{
     position: relative;

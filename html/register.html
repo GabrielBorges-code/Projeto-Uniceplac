@@ -4,7 +4,16 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    
+    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet" href="../styles/sharedStyles.css">
+    <!--
+        
+    -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ubuntu&display=swap" rel="stylesheet">
+
     <title>Cadastro de Usuário</title>
 
 </head>
@@ -12,34 +21,56 @@
 <body>
     
     <!--FORMULÁRIO DE CADASTRO-->
-    <div class="container">
-        <div id="cadastro">
+    <div class="content">
+        <div id="register">
             <form method="post" action=""> 
-                <h1>Cadastro</h1> 
+                <h1>CADASTRAR-SE</h1> 
                 
                 <p> 
-                    <label for="nome_cad">Seu nome</label>
-                    <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto" />
+                    <!--
+                        <label for="nome_cad">Seu nome</label>
+
+                    -->
+                    <i class="name_register"></i>
+                    <input class="register" id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto" />
                 </p>
                 
                 <p> 
-                    <label for="email_cad">Seu e-mail</label>
-                    <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+                     <!--
+                         <label for="email_cad">Seu e-mail</label>
+                        
+                    -->
+                    <i class="email_register"></i>
+                    <input class="register" id="email_register" name="email_cad" required="required" type="email" placeholder="contato@uniceplac.com"/> 
                 </p>
                 
                 <p> 
-                    <label for="senha_cad">Sua senha</label>
-                    <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+                    <!--
+                        <label for="senha_cad">Sua senha</label>
+
+                    -->
+                    <i class="password_register"></i>
+                    <input class="register" id="idPasswordRegister" name="passwordRegister" required="required" type="password" placeholder="Digite sua senha"/>
+                </p>
+                <p> 
+                    <!--
+                        <label for="senha_cad">Repita sua senha</label>
+
+                    -->
+                    <i class="password_register"></i>
+                    <input class="register" id="idrepeatPasswordRegister" name="repeatPasswordRegister" required="required" type="password" placeholder="repita sua senha"/>
                 </p>
                 
-                <p> 
-                    <input type="submit" value="Cadastrar"/> 
-                </p>
+                <div class="btnAcess">
+                    <input id="btnAcess" type="submit" value="Cadastrar" />
+        
+                </div>
                 
                 <p class="link">  
-                Já tem conta?
-                <a href="login.html"> Ir para Login </a>
+                    Já tem conta?
+                    <a href="login.html"> Ir para Login </a>
                 </p>
+
             </form>
         </div>
 
