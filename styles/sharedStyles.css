@@ -26,6 +26,7 @@ input:focus{
 }
 
 input#btnAcess {
+    border: none;
     color: white;
     width: 318px;
     height: 51px;
@@ -35,3 +36,9 @@ input#btnAcess {
     border-color: #00734f;
 }
 
+input#btnAcess:hover, .active {
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #d68749;
+    
+}

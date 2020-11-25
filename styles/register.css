@@ -1,18 +1,17 @@
-body {
-    background-image: url(../assets/fundo.png);
-}
-
-div#register{
+div.register{
     text-align: center;
     height: 615px;
    
     background-color: rgb(255, 255, 255, 0.7 );
 
-    margin: 0 auto;
+    margin: 13px auto;
     width: 50%;
 
+    padding: 15px;
+
 }
-div#register h1{
+
+div.register h1{
     color: #00734f;
     font-family: 'Kaushan Script', cursive;
 }
@@ -58,5 +57,3 @@ i.password_register{
     vertical-align: middle;
     box-sizing: border-box; 
 }
-
-  
