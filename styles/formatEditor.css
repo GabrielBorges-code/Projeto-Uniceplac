@@ -44,10 +44,6 @@ select {
     font-size: 15pt;
     padding: 9px;
 
-    width: 318px;
-    height: 51px;
-
-
     outline: none;
     border-radius: 15px;
 }
