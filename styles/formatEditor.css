@@ -1,0 +1,53 @@
+div.formatEditor{
+
+    height: 457px;
+   
+    background-color: rgb(255, 255, 255, 0.7 );
+
+    margin: 75px auto;
+    width: 50%;
+
+    padding: 30px;
+
+}
+
+div.formatEditor h1{
+    color: #00734f;
+    font-family: 'Kaushan Script', cursive;
+}
+
+div.btnAcess{
+    width: 320px;
+    position: relative;
+    left: 25%;    
+} 
+
+div.forgotPassword#btnAcess{
+    text-align: center;
+}
+
+i.backPage{
+    background: url(../assets/left-arrow.svg);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 31px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+select {
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
+    padding: 9px;
+
+    width: 318px;
+    height: 51px;
+
+
+    outline: none;
+    border-radius: 15px;
+}

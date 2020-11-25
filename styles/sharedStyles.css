@@ -26,12 +26,31 @@ input:focus{
 }
 
 input#btnAcess {
+    border: none;
     color: white;
     width: 318px;
     height: 51px;
     align-items: center;
     border-radius: 15px;
     background-color: #00734f;
-    border-color: #00734f;
+    cursor:pointer;
+    box-shadow: none;
 }
 
+input#btnAcess:hover, .active {
+    outline: none;
+    transition-duration: 0.5s;
+    background-color: #d68749;
+    
+}
+
+a:link {
+    color: #00734f;    
+    text-decoration: none;
+ 
+}
+a:link:hover {
+    transition-duration: 0.5s;
+    color: #d68749
+
+}
