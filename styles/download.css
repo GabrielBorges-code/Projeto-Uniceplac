@@ -1,0 +1,18 @@
+div.download{
+
+    height: 455px;
+   
+    background-color: rgb(255, 255, 255, 0.7 );
+
+    margin: 75px auto;
+    width: 50%;
+
+    padding: 30px;
+
+}
+
+div.download h1 {
+    font-family: 'Pacifico', cursive;
+    color: #00734f;
+
+}
