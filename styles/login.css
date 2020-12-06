@@ -58,13 +58,13 @@ div.btnAcess{
 
 div.word{
     width: 50%;
-    font-size: 60px;
+    font-size: 55px;
     color: #00734f;
 }
 
 div.word p {
     text-align: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Pacifico', cursive;
     transform: rotate(-10deg)
 }
 

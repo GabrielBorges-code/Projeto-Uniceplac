@@ -13,7 +13,7 @@ div.formatEditor{
 
 div.formatEditor h1{
     color: #00734f;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 div.btnAcess{
@@ -43,10 +43,6 @@ select {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15pt;
     padding: 9px;
-
-    width: 318px;
-    height: 51px;
-
 
     outline: none;
     border-radius: 15px;
