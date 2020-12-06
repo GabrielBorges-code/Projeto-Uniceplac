@@ -44,13 +44,28 @@ input#btnAcess:hover, .active {
     
 }
 
+a:-webkit-any-link {
+    color: #00734f;    
+    text-decoration: none;
+    
+}
+
+a:-webkit-any-link:hover {
+    transition-duration: 0.5s;
+    color: #d68749;
+    
+}
+
+/*
 a:link {
     color: #00734f;    
     text-decoration: none;
- 
+    
 }
 a:link:hover {
     transition-duration: 0.5s;
-    color: #d68749
+    color: #d68749;
 
 }
+
+*/
