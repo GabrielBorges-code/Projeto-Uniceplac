@@ -26,18 +26,6 @@ div.forgotPassword#btnAcess{
     text-align: center;
 }
 
-i.backPage{
-    background: url(../assets/left-arrow.svg);
-    background-size: 28px;
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 31px;
-    display: inline-block;
-    vertical-align: middle;
-    box-sizing: border-box;
-
-}
-
 select {
     background-color: white;
     font-family: 'Ubuntu', sans-serif;

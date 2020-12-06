@@ -55,17 +55,14 @@ a:-webkit-any-link:hover {
     color: #d68749;
     
 }
+i.backPage{
+    background: url(../assets/left-arrow.svg);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 31px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
 
-/*
-a:link {
-    color: #00734f;    
-    text-decoration: none;
-    
 }
-a:link:hover {
-    transition-duration: 0.5s;
-    color: #d68749;
-
-}
-
-*/
